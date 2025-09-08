@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+}
+
+main, footer {
+  margin: 0 8px;
+}
+
+#student-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.student-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: aquamarine;
+}
