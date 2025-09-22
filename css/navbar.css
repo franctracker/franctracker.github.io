@@ -1,6 +1,7 @@
 nav {
-  display: grid;
-  grid-row: 1;
+  display: flex;
+  background-color: black;
+  width: 100%;
 }
 
 ul {
@@ -18,4 +19,9 @@ li {
 ul li a {
   color: white;
   text-decoration: none;
+}
+
+body {
+  margin: 0;
+  width: 100%;
 }
